@@ -12,5 +12,5 @@ permalink: /publications/
 
 [Field Testing of Software Applications](https://ieeexplore.ieee.org/document/7965376) - L. Gazzola - International Conference on Software Engineering Companion (2017)
 
-[<img src="/images/scholar.png" width="40">](https://scholar.google.co.uk/citations?user=Kes52mkAAAAJ)
+[<img src="/images/scholar.png" width="40">](https://scholar.google.co.uk/citations?user=RRQby44AAAAJ)
 
