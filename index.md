@@ -6,4 +6,4 @@ layout: home
 ---
 
 <img src="/images/me.jpg" width="250" align="left" hspace="20">
-I'm Luca Gazzola, a PhD student in software engineering at University of Milano-Bicocca, supervised by prof. Leonardo Mariani. I obtained my MSc degree from University of Milano-Bicocca with a thesis on automatic software testing of java software using evolutionary algorithms. My focus is software testing but I am also interested in automatic software repair, machine learning and mobile software development.
+I'm Luca Gazzola, a postdoctoral researcher in software engineering at University of Milano-Bicocca. I obtained my PhD degree from University of Milano-Bicocca supervised by prof. Leonardo Mariani, with a thesis on software field testing. My research focus is software testing but I am also interested in automatic software repair, machine learning and mobile software development.
