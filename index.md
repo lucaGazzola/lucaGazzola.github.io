@@ -1,9 +1,1 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
----
-
-<img src="/images/me.jpg" width="250" align="left" hspace="20">
-I'm Luca Gazzola, a software engineer in test at [lastminute.com](https://www.lastminute.com). I obtained my PhD degree from University of Milano-Bicocca supervised by prof. Leonardo Mariani, with a thesis on field testing of Java applications. My research focus has always been software testing but I am also interested in automatic software repair, machine learning and software development in general.
+README.md

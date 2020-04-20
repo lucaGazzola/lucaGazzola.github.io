@@ -1,43 +1,35 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+theme: jekyll-theme-minimal
 title: Luca Gazzola
-email: luca.gazzola (at) lastminute.com
-description: >- # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: gazzo87
-github_username:  lucaGazzola
-facebook_username: luca.gazzola2
-instagram_username: luca.gazzola
-linkedin_username: lucaGazzola
-
-# Build settings
-markdown: kramdown
-theme: minima
+layout: default
 plugins:
-  - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+    - jekyll-optional-front-matter
+include:
+    - README.md
+optional_front_matter:
+  remove_originals: true
+defaults:
+  - scope:
+      path: "*.md"
+    values:
+      layout: default
+tagline: Software engineer in test @ lastminute.com
+twitter:
+    - username: gazzo87
+social:
+  name: Luca Gazzola
+  links:
+    - https://twitter.com/gazzo87
+description: 
+    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+    <span class="sr-only">Mail:</span>&nbsp;&nbsp;<a href="mailto:luca.gazzola@lastminute.com">luca.gazzola@lastminute.com</a><br>
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+    <span class="sr-only">Twitter:</span>&nbsp;&nbsp;<a href="https://www.twitter.com/gazzo87">@gazzo87</a><br>
+    <i class="fa fa-facebook" aria-hidden="true"></i>
+    <span class="sr-only">Facebook:</span>&nbsp;&nbsp;<a href="https://www.facebook.com/luca.gazzola2"> luca.gazzola2</a><br>
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+    <span class="sr-only">Instagram:</span>&nbsp;&nbsp;<a href="https://www.instagram.com/luca.gazzola/">luca.gazzola</a><br>
+    <i class="fa fa-linkedin" aria-hidden="true"></i>
+    <span class="sr-only">LinkedIn:</span>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/lucagazzola/">lucagazzola</a><br>
+    <img src="/assets/scholar.png" width="20">
+    <a href="https://scholar.google.com/citations?user=RRQby44AAAAJ&hl=en">Luca Gazzola</a>
+logo: assets/me.jpg
