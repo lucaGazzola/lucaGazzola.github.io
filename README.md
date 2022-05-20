@@ -1,7 +1,6 @@
 # About Me
 
-I'm a software engineer in test at [lastminute.com](https://www.lastminute.com). I obtained my PhD degree from University of Milano-Bicocca, working with prof. Leonardo Mariani and his group, with a thesis on field testing of Java applications and authoring several reasearch articles. My research focus has always been software testing but I am also interested in automatic software repair, machine learning and software development in general.
-
+I'm a software engineer at [lastminute.com](https://www.lastminute.com). My work consists of developing and optimizing spring-based applications, as well as the infrastructure they rely on. I obtained my PhD degree from University of Milano-Bicocca, working with prof. Leonardo Mariani and his group, with a thesis on field testing of Java applications and authoring several reasearch articles. My research focus has always been software testing but I am also interested in automatic software repair, machine learning and software development in general.
 
 ## Latest News from [Luca Gazzola](https://twitter.com/gazzo87)
 
