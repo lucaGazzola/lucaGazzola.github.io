@@ -1,8 +1,7 @@
 # About Me
 
-I'm a software engineer at [lastminute.com](https://www.lastminute.com). My work consists of developing and optimizing spring-based applications, as well as the infrastructure they rely on. I obtained my PhD degree from University of Milano-Bicocca, working with prof. Leonardo Mariani and his group, with a thesis on field testing of Java applications and authoring several reasearch articles. My research focus has always been software testing but I am also interested in automatic software repair, machine learning and software development in general.
+Hi! I am a software engineer with prior experience in software testing automation. During my academic experience (PhD, supervised by prof. Leonardo Mariani), I developed an evolutionary algorithm for the automatic generation of test suites and a methodology for testing Java applications in real-world scenarios, utilizing user input and general oracles. Currently, my focus lies in product development, although I have previously contributed to projects involving end-to-end testing automation and performance testing. My interests also extend to automatic software repair. I have authored multiple scientific articles, which have been published in top software engineering journals and conferences.
 
-## Latest News from [Luca Gazzola](https://twitter.com/gazzo87)
+When my hands are off the keyboard, I love reading (both fiction and non-fiction), riding my bikes (with or without engine) but sometimes I also get back to the keyboard to play some videogames!
 
-<a class="twitter-timeline" data-lang="en" data-height="500" data-width="350" data-chrome="noheader nofooter noborders transparent"
-href="https://twitter.com/gazzo87">Tweets by @gazzo87</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+I am currently wotking at [lastminute.com](https://www.lastminute.com), check out some [cool stuff](https://technology.lastminute.com/) we are doing.
