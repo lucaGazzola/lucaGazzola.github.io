@@ -4,7 +4,7 @@ layout: default
 plugins:
     - jekyll-optional-front-matter
 include:
-    - README.md
+    - index.md
 optional_front_matter:
   remove_originals: true
 defaults:
@@ -12,7 +12,7 @@ defaults:
       path: "*.md"
     values:
       layout: default
-tagline: Software engineer in test @ lastminute.com
+tagline: Software engineer @ lastminute.com
 twitter:
     - username: gazzo87
 social:
