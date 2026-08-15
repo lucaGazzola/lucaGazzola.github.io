@@ -4,4 +4,4 @@ Hi! I am a software engineer with prior experience in software testing automatio
 
 When my hands are off the keyboard, I love reading (both fiction and non-fiction), riding my bikes (with or without engine) but sometimes I also get back to the keyboard to play some videogames!
 
-I am currently working on [Forgeo](https://github.com/lucaGazzola/forgeo), an autonomous software factory for coding agents — check out the [overview on the blog](/blog/).
+I am currently working on [Forgeo](https://forgeo.org), an autonomous software factory for coding agents — check out the [overview on the blog](/blog/).
