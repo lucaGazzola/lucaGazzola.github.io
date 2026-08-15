@@ -114,22 +114,6 @@ a:hover {
   color: var(--text);
 }
 
-.wordmark__dot {
-  color: var(--accent);
-}
-
-.site-header__mail {
-  font-size: 13.5px;
-  color: var(--muted);
-  border-bottom: 1px solid transparent;
-  transition: color 0.2s ease, border-color 0.2s ease;
-}
-
-.site-header__mail:hover {
-  color: var(--accent);
-  border-color: var(--accent);
-}
-
 .site-nav {
   display: flex;
   align-items: baseline;
@@ -147,12 +131,6 @@ a:hover {
 .site-nav__link.is-active {
   color: var(--accent);
   border-color: var(--accent);
-}
-
-@media (max-width: 480px) {
-  .site-header__mail {
-    display: none;
-  }
 }
 
 /* ==========================================================================

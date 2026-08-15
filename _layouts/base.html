@@ -35,10 +35,9 @@
 <body>
   <header class="site-header">
     <div class="wrap site-header__inner">
-      <a class="wordmark" href="{{ '/' | relative_url }}">{{ site.title }}<span class="wordmark__dot">.</span></a>
+      <a class="wordmark" href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <nav class="site-nav">
         <a class="site-nav__link{% if page.layout == 'blog' or page.layout == 'post' %} is-active{% endif %}" href="{{ '/blog/' | relative_url }}">Blog</a>
-        <a class="site-header__mail" href="mailto:{{ site.email }}">{{ site.email }}</a>
       </nav>
     </div>
   </header>

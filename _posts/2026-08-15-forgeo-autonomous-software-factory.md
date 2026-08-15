@@ -5,7 +5,7 @@ date: 2026-08-15
 description: How Forgeo turns a plain backlog into an application by running your coding agent autonomously.
 ---
 
-AI coding agents are excellent at the work we hand them: implement a feature, fix a bug, refactor a module. What scales badly is everything *around* that work: deciding what to work on next, feeding tasks one at a time, integrating the results, and babysitting the run until it succeeds. [Forgeo](https://github.com/lucaGazzola/forgeo) is a project I have been building to automate that orchestration: a scheduled, agent-driven software factory that turns a backlog into merged commits, with a single human in the loop.
+AI coding agents are excellent at the work we hand them: implement a feature, fix a bug, refactor a module. What scales badly is everything *around* that work: deciding what to work on next, feeding tasks one at a time, integrating the results, and babysitting the run until it succeeds. [Forgeo](https://forgeo.org) is a project I have been building to automate that orchestration: a scheduled, agent-driven software factory that turns a backlog into merged commits, with a single human in the loop.
 
 ## A factory, not a chat session
 
