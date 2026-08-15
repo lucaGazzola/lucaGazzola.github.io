@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Forgeo: an autonomous software factory for coding agents
+title: "Forgeo: an autonomous software factory for coding agents"
 date: 2026-08-15
 description: How Forgeo turns a plain backlog into an application by running your coding agent autonomously.
 ---
