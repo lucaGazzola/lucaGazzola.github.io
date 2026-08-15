@@ -130,6 +130,25 @@ a:hover {
   border-color: var(--accent);
 }
 
+.site-nav {
+  display: flex;
+  align-items: baseline;
+  gap: 22px;
+}
+
+.site-nav__link {
+  font-size: 13.5px;
+  color: var(--muted);
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.site-nav__link:hover,
+.site-nav__link.is-active {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
 @media (max-width: 480px) {
   .site-header__mail {
     display: none;
@@ -217,10 +236,14 @@ a:hover {
 .card h2 {
   font-size: 28px;
   line-height: 1.2;
-  margin: 0 0 22px;
+  margin: 1.8em 0 22px;
   padding-bottom: 14px;
   border-bottom: 1px solid var(--hairline);
   position: relative;
+}
+
+.card > h2:first-child {
+  margin-top: 0;
 }
 
 .card h2::after {
@@ -252,6 +275,138 @@ a:hover {
 .card a:hover {
   color: var(--accent);
   text-decoration-color: var(--accent);
+}
+
+.card h3 {
+  margin: 1.8em 0 0.6em;
+  font-size: 21px;
+}
+
+.card ol {
+  margin: 0 0 1.1em;
+  padding-left: 1.4em;
+}
+
+.card ol li {
+  margin-bottom: 0.5em;
+  padding-left: 0.2em;
+}
+
+.card ol li::marker {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.card code {
+  font-family: ui-monospace, "SF Mono", "Cascadia Code", "JetBrains Mono",
+               Menlo, Consolas, monospace;
+  font-size: 0.86em;
+  background: var(--accent-soft);
+  border-radius: 4px;
+  padding: 0.15em 0.4em;
+}
+
+.card pre {
+  margin: 1.4em 0;
+  padding: 18px 20px;
+  background: var(--bg);
+  border: 1px solid var(--hairline);
+  border-radius: 12px;
+  overflow-x: auto;
+}
+
+.card pre code {
+  background: none;
+  padding: 0;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+/* ==========================================================================
+   Post header
+   ========================================================================== */
+
+.post-header {
+  margin-bottom: 30px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--hairline);
+  position: relative;
+}
+
+.post-header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 44px;
+  height: 2px;
+  background: var(--accent);
+}
+
+.post-header__date {
+  display: block;
+  font-size: 12.5px;
+  font-weight: 500;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+.post-header__title {
+  margin: 0;
+  font-size: 34px;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+/* ==========================================================================
+   Blog listing
+   ========================================================================== */
+
+.blog-item {
+  padding: 26px 0;
+  border-top: 1px solid var(--hairline);
+}
+
+.blog-item:first-child {
+  border-top: 0;
+  padding-top: 4px;
+}
+
+.blog-item:last-child {
+  padding-bottom: 0;
+}
+
+.blog-item h3 {
+  margin: 0 0 6px;
+  font-size: 22px;
+  letter-spacing: -0.01em;
+}
+
+.blog-item h3 a {
+  text-decoration: none;
+  color: var(--text);
+  transition: color 0.2s ease;
+}
+
+.blog-item h3 a:hover {
+  color: var(--accent);
+}
+
+.blog-item time {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.blog-item p {
+  margin: 10px 0 0;
+  font-size: 15px;
+  color: var(--muted);
 }
 
 /* ==========================================================================

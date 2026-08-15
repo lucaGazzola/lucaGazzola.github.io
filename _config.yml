@@ -1,9 +1,10 @@
 title: Luca Gazzola
-tagline: Software engineer @ lastminute.com
-description: Personal website of Luca Gazzola — software engineer at lastminute.com, previously in software testing automation and academic research (PhD).
-email: luca.gazzola@lastminute.com
+tagline: Software engineer
+description: Personal website of Luca Gazzola — software engineer with a background in software testing automation and academic research (PhD).
+email: lgazzola87@gmail.com
 url: https://lucagazzola.github.io
 logo: /assets/me.jpg
+permalink: /blog/:title/
 author:
   name: Luca Gazzola
   twitter: gazzo87
