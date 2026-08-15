@@ -1,6 +1,19 @@
-theme: jekyll-theme-minimal
 title: Luca Gazzola
-layout: default
+tagline: Software engineer @ lastminute.com
+description: Personal website of Luca Gazzola — software engineer at lastminute.com, previously in software testing automation and academic research (PhD).
+email: luca.gazzola@lastminute.com
+url: https://lucagazzola.github.io
+logo: /assets/me.jpg
+author:
+  name: Luca Gazzola
+  twitter: gazzo87
+social:
+  twitter: https://twitter.com/gazzo87
+  facebook: https://www.facebook.com/luca.gazzola2
+  instagram: https://www.instagram.com/luca.gazzola/
+  linkedin: https://www.linkedin.com/in/lucagazzola/
+  scholar: https://scholar.google.com/citations?user=RRQby44AAAAJ&hl=en
+
 plugins:
     - jekyll-optional-front-matter
 include:
@@ -12,24 +25,3 @@ defaults:
       path: "*.md"
     values:
       layout: default
-tagline: Software engineer @ lastminute.com
-twitter:
-    - username: gazzo87
-social:
-  name: Luca Gazzola
-  links:
-    - https://twitter.com/gazzo87
-description: 
-    <i class="fa fa-envelope-o" aria-hidden="true"></i>
-    <span class="sr-only">Mail:</span>&nbsp;&nbsp;<a href="mailto:luca.gazzola@lastminute.com">luca.gazzola@lastminute.com</a><br>
-    <i class="fa fa-twitter" aria-hidden="true"></i>
-    <span class="sr-only">Twitter:</span>&nbsp;&nbsp;<a href="https://www.twitter.com/gazzo87">@gazzo87</a><br>
-    <i class="fa fa-facebook" aria-hidden="true"></i>
-    <span class="sr-only">Facebook:</span>&nbsp;&nbsp;<a href="https://www.facebook.com/luca.gazzola2"> luca.gazzola2</a><br>
-    <i class="fa fa-instagram" aria-hidden="true"></i>
-    <span class="sr-only">Instagram:</span>&nbsp;&nbsp;<a href="https://www.instagram.com/luca.gazzola/">luca.gazzola</a><br>
-    <i class="fa fa-linkedin" aria-hidden="true"></i>
-    <span class="sr-only">LinkedIn:</span>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/lucagazzola/">lucagazzola</a><br>
-    <img src="/assets/scholar.png" width="20">
-    <a href="https://scholar.google.com/citations?user=RRQby44AAAAJ&hl=en">Luca Gazzola</a>
-logo: assets/me.jpg

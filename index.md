@@ -1,4 +1,4 @@
-# About Me
+## About Me
 
 Hi! I am a software engineer with prior experience in software testing automation. During my academic experience (PhD, supervised by prof. Leonardo Mariani) I have authored multiple scientific articles, which have been published in top software engineering journals and conferences. Currently, my focus lies in product development, although I have previously contributed to projects involving end-to-end testing automation and performance testing. My interests also extend to automatic software repair.
 
