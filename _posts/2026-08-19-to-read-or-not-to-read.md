@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "To read or not to read?"
+subtitle: "(code)"
 date: 2026-08-19
 description: When (and when not) to read the code produced by your coding agent.
 ---
-
-<small>(we are talking about code)</small>
 
 A debate is raging on X: do we need to read the code produced by our favourite coding agent? There are prominent figures representing both viewpoints, and users are at each other's throat in typical X fashion.
 
